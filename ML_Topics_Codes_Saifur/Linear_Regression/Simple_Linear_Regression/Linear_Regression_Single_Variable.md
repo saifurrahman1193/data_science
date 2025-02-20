@@ -42,6 +42,19 @@ The **least squares method** is widely used for finding the **line of best fit**
 ![Alt text](assets/21.png)
 ![Alt text](assets/22.png)
 ![Alt text](assets/23.png)
+![Alt text](assets/24.png)
+![Alt text](assets/25.png)
+![Alt text](assets/26.png)
+![Alt text](assets/27.png)
+![Alt text](assets/28.png)
+![Alt text](assets/29.png)
+![Alt text](assets/30.png)
+![Alt text](assets/31.png)
+![Alt text](assets/32.png)
+![Alt text](assets/34.png)
+![Alt text](assets/35.png)
+![Alt text](assets/36.png)
+![Alt text](assets/37.png)
 
 
 
@@ -49,7 +62,21 @@ The **least squares method** is widely used for finding the **line of best fit**
 
 
 
-# 📌 Business Interpretation of Intercept in Regression
+
+
+
+## Intercept/Constant: 
+- The baseline sales when advertising spend is zero.
+- Intercept: The value of the dependent variable when all independent variables are zero.
+
+## Slope/Gradient/rate of change/Coefficient: 
+- The increase in sales for each unit increase in advertising spend.
+
+
+
+
+
+## 📌 Business Interpretation of Intercept in Regression
 
 In business terms, an **intercept** represents a **baseline or starting point** for the dependent variable when all independent variables are set to zero. It helps quantify the impact of changes in independent variables from this baseline.
 
@@ -62,10 +89,6 @@ In business terms, an **intercept** represents a **baseline or starting point** 
 - **Finance:** The intercept can represent **fixed or overhead costs** that are incurred regardless of activity levels.
 
 
-#### **Intercept**: The baseline sales when advertising spend is zero.
-- Intercept: The value of the dependent variable when all independent variables are zero.
-
-#### **Slope/Gradient**: The increase in sales for each unit increase in advertising spend.
 
 
 ---
