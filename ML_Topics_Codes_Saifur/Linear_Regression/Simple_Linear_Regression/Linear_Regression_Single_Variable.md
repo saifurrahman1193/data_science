@@ -28,6 +28,80 @@ The **least squares method** is widely used for finding the **line of best fit**
 ![Alt text](assets/7.png)
 ![Alt text](assets/8.png)
 ![Alt text](assets/9.png)
+![Alt text](assets/10.png)
+![Alt text](assets/11.png)
+![Alt text](assets/12.png)
+![Alt text](assets/13.png)
+![Alt text](assets/14.png)
+![Alt text](assets/15.png)
+![Alt text](assets/16.png)
+![Alt text](assets/17.png)
+![Alt text](assets/18.png)
+![Alt text](assets/19.png)
+![Alt text](assets/20.png)
+![Alt text](assets/21.png)
+![Alt text](assets/22.png)
+![Alt text](assets/23.png)
+
+
+
+
+
+
+
+# 📌 Business Interpretation of Intercept in Regression
+
+In business terms, an **intercept** represents a **baseline or starting point** for the dependent variable when all independent variables are set to zero. It helps quantify the impact of changes in independent variables from this baseline.
+
+## 📊 **Understanding the Intercept in Business**
+- The **intercept** reflects the portion of the dependent variable that is **not influenced** by independent variables.
+- It serves as the **starting point** for evaluating the effects of independent variables on the dependent variable.
+
+### **Examples**
+- **Sales Prediction Model:** The intercept might represent **expected sales when all marketing efforts (predictors) are at zero**.
+- **Finance:** The intercept can represent **fixed or overhead costs** that are incurred regardless of activity levels.
+
+
+#### **Intercept**: The baseline sales when advertising spend is zero.
+- Intercept: The value of the dependent variable when all independent variables are zero.
+
+#### **Slope/Gradient**: The increase in sales for each unit increase in advertising spend.
+
+
+---
+
+## **📈 Types of Intercepts in Regression**
+### **1️⃣ Positive Intercept**
+- If the intercept is **positive**, the predicted dependent variable (**Y**) when the independent variable (**X**) is zero is **positive**.
+- 🔹 The regression line crosses the **y-axis above zero**.
+- Positive Intercept: Indicates a positive baseline value.
+
+### **2️⃣ Negative Intercept**
+- If the intercept is **negative**, the predicted value of **Y** when **X = 0** is **negative**.
+- 🔹 The regression line crosses the **y-axis below zero**.
+- Negative Intercept: Indicates a negative baseline value.
+
+### **3️⃣ Zero Intercept**
+- If the intercept is **zero**, the regression line **passes through the origin (0,0)**.
+- 🔹 This means there is **no additional constant term** in the equation.
+- 🔹 This situation is **rare and highly theoretical**.
+- Zero Intercept: Indicates no baseline value, often theoretical.
+
+
+
+
+
+
+
+
+---
+
+## **💡 Summary**
+- The **intercept** shows the expected value of **Y** when **X = 0**.
+- It helps understand the **baseline value** in business models.
+- **Positive, negative, and zero intercepts** give different interpretations based on the context.
+
+
 
 
 # Resources
