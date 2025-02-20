@@ -5,6 +5,9 @@
 ![Alt text](assets/5.png)
 ![Alt text](assets/6.png)
 ![Alt text](assets/6_2.png)
+
+
+
 The **least squares method** is widely used for finding the **line of best fit** in linear regression. The idea is to minimize the sum of the squared differences (errors) between the observed data points and the predicted values on the line. Here's a breakdown of the process:
 
 1. **The Goal**: The goal of the line of best fit is to find the straight line that best represents the data in a way that minimizes the vertical distance between the points and the line. These distances are also referred to as "errors" or "residuals."
