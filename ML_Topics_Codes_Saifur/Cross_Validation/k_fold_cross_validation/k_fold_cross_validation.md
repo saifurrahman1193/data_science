@@ -8,6 +8,8 @@
 ![alt text](assets/k_fold_steps2.png)
 
 ![alt text](assets/k_fold_steps-2.png)
+![alt text](assets/k_fold_steps-3.png)
+
 
 ![alt text](assets/k_fold.png)
 ![alt text](assets/k_fold1.png)
