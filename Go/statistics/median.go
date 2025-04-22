@@ -1,18 +1,38 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
-func median(data []int) int {
-	total := 0
-	for _, item := range data {
-		total += item
+// Define a type constraint for ordered types
+type Ordered interface {
+	~int | ~int64 | ~float64
+}
+
+// Generic median function
+func median[T Ordered](data []T) float64 {
+	sort.Slice(data, func(i, j int) bool {
+		return data[i] < data[j]
+	})
+
+	n := len(data)
+	if n%2 == 0 {
+		mid1 := float64(data[n/2-1])
+		mid2 := float64(data[n/2])
+		return (mid1 + mid2) / 2
+	} else {
+		return float64(data[n/2])
 	}
-	return total / len(data)
 }
 
 func main() {
-	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	fmt.Println("median:", median(numbers))
+	odd := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+	even := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+	fmt.Println("median for odd:", median(odd))   // 5
+	fmt.Println("median for even:", median(even)) // 5.5
 }
 
+// go install golang.org/x/exp/constraints@latest
 // go run median.go
