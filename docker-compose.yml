@@ -2,12 +2,15 @@ version: '3.3'
 
 services:
   jupyter:
-    image: continuumio/anaconda3
+    build: .
     container_name: jupyter-notebook
     ports:
       - "8888:8888"
     volumes:
       - .:/home/jovyan/work
+    devices:
+      - "/dev/video0:/dev/video0"
+    privileged: true
     command: >
       jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser
       --allow-root --NotebookApp.token='' --NotebookApp.password=''
