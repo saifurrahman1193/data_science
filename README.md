@@ -5,6 +5,7 @@
   - [Contents](#contents)
 - [Command : Docker : Setup : Initialized](#command--docker--setup--initialized)
 - [Run](#run)
+- [install inside the container](#install-inside-the-container)
   - [Links](#links)
 
 # Command : Docker : Setup : Initialized
@@ -15,6 +16,12 @@ sudo docker-compose build && docker-compose up -d
 
 # Run
 - http://localhost:8888 
+
+
+# install inside the container
+```
+pip install kagglehub
+```
 
 ## Links
 - https://colab.research.google.com/
