@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y \
 # Install python dependencies
 RUN pip install --upgrade pip
 RUN pip install jupyter notebook
-RUN pip install face_recognition opencv-python opencv-contrib-python matplotlib numpy pandas scikit-learn seaborn
+RUN pip install face_recognition opencv-python opencv-contrib-python matplotlib numpy pandas scikit-learn seaborn 
 
 # Expose Jupyter port
 EXPOSE 8888
